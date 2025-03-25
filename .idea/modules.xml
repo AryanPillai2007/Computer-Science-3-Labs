@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Computer-Science-3-Labs.iml" filepath="$PROJECT_DIR$/.idea/Computer-Science-3-Labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab00 - Shopping Cart/Lab00 - Shopping Cart.iml" filepath="$PROJECT_DIR$/Lab00 - Shopping Cart/Lab00 - Shopping Cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab01a - Game of Life/Lab01a - Game of Life.iml" filepath="$PROJECT_DIR$/Lab01a - Game of Life/Lab01a - Game of Life.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab01b - Number List/Lab01b - Number List.iml" filepath="$PROJECT_DIR$/Lab01b - Number List/Lab01b - Number List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab02 - My Stack/Lab02 - My Stack.iml" filepath="$PROJECT_DIR$/Lab02 - My Stack/Lab02 - My Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab03 - Maze Solver/Lab03 - Maze Solver.iml" filepath="$PROJECT_DIR$/Lab03 - Maze Solver/Lab03 - Maze Solver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab04 - Melody Maker/Lab04 - Melody Maker.iml" filepath="$PROJECT_DIR$/Lab04 - Melody Maker/Lab04 - Melody Maker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab05 - Guitar Hero/Lab05 - Guitar Hero.iml" filepath="$PROJECT_DIR$/Lab05 - Guitar Hero/Lab05 - Guitar Hero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab06-08 - Word Ladder &amp; My Linked List &amp; Queue/Lab06-08 - Word Ladder &amp; My Linked List &amp; Queue.iml" filepath="$PROJECT_DIR$/Lab06-08 - Word Ladder &amp; My Linked List &amp; Queue/Lab06-08 - Word Ladder &amp; My Linked List &amp; Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab09 - Gem Matching/Lab09 - Gem Matching.iml" filepath="$PROJECT_DIR$/Lab09 - Gem Matching/Lab09 - Gem Matching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab10 - Snowflake/Lab10 - Snowflake.iml" filepath="$PROJECT_DIR$/Lab10 - Snowflake/Lab10 - Snowflake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab11 - Forest Fire/Lab11 - Forest Fire.iml" filepath="$PROJECT_DIR$/Lab11 - Forest Fire/Lab11 - Forest Fire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab12 - Boggle/Lab12 - Boggle.iml" filepath="$PROJECT_DIR$/Lab12 - Boggle/Lab12 - Boggle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab13 - My BST/Lab13 - My BST.iml" filepath="$PROJECT_DIR$/Lab13 - My BST/Lab13 - My BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab14 - Twenty Questions/Lab14 - Twenty Questions.iml" filepath="$PROJECT_DIR$/Lab14 - Twenty Questions/Lab14 - Twenty Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab15 - Bin Packing/Lab15 - Bin Packing.iml" filepath="$PROJECT_DIR$/Lab15 - Bin Packing/Lab15 - Bin Packing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab16 - Min Heap/Lab16 - Min Heap.iml" filepath="$PROJECT_DIR$/Lab16 - Min Heap/Lab16 - Min Heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab17 - Huffman Coding/Lab17 - Huffman Coding.iml" filepath="$PROJECT_DIR$/Lab17 - Huffman Coding/Lab17 - Huffman Coding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab18 - Employee Database/Lab18 - Employee Database.iml" filepath="$PROJECT_DIR$/Lab18 - Employee Database/Lab18 - Employee Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab19 - PhoneBook/Lab19 - PhoneBook.iml" filepath="$PROJECT_DIR$/Lab19 - PhoneBook/Lab19 - PhoneBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab20 - Cryptography/Lab20 - Cryptography.iml" filepath="$PROJECT_DIR$/Lab20 - Cryptography/Lab20 - Cryptography.iml" />
+    </modules>
+  </component>
+</project>
