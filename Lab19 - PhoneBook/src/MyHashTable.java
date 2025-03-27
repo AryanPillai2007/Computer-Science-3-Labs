@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class MyHashTable
         <K, V> {
     private static final int INITIAL_CAPACITY = 16;
-    // Best Initial Capacity of a Hashmap
+    // Initial Capacity of a Hashmap
     private static final double LOAD_FACTOR = 0.75;
     // If 75 Percent is exceeded, double table capacity and re-hash the table's contents.
 
