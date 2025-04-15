@@ -31,8 +31,11 @@ public class BinaryMaze {
         sc.close();
     }
 
-    static int bfs(int[][] maze, int R, int C, int sr, int sc, int er, int ec) {
-        boolean[][] visited = new boolean[R][C];
+    static int bfs(int[][] maze,
+                   int R, int C,
+                   int sr, int sc, int er, int ec) {
+
+        boolean [][] visited = new boolean[R][C];
         Queue<Point> q = new LinkedList<>();
         q.add(new Point(sr, sc, 0));
         visited[sr][sc] = true;
@@ -41,11 +44,12 @@ public class BinaryMaze {
             Point curr = q.poll();
             if (curr.r == er && curr.c == ec) return curr.dist;
 
-            for (int i = 0; i < 4; i++) {
+            for (int i = 0;
+                 i < 4; i++) {
                 int nr = curr.r + dr[i];
                 int nc = curr.c + dc[i];
-                if (nr >= 0 && nc >= 0 && nr < R && nc < C &&
-                        maze[nr][nc] == 1 && !visited[nr][nc]) {
+                if (nr >= 0&&nc >= 0 &&nr < R&& nc < C &&maze[nr][nc] == 1 && !(visited)[nr][nc])
+                {
                     q.add(new Point(nr, nc, curr.dist + 1));
                     visited[nr][nc] = true;
                 }

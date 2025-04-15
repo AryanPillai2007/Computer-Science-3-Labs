@@ -15,7 +15,7 @@ public class Scooby {
             graph.clear();
             visited.clear();
 
-            String[] edges = sc.nextLine().split(" ");
+            String[] edges = sc.nextLine().split("");
             String[] startEnd = sc.nextLine().split("");
 
             // Build undirected graph
