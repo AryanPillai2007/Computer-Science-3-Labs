@@ -1,17 +1,15 @@
-import java.util.*;
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 public class Graph {
-    // Number of vertices and edges
-    private int V;
-    private int E;
-
-    // Adjacency list representation
-    public Vertex[] vertices;
+    int V, E;
+    Vertex[] vertices;
 
     public Graph(Scanner scanner) {
         this.V = scanner.nextInt();
         this.E = scanner.nextInt();
-        vertices = new Vertex[V];
+        this.vertices = new Vertex[V];
 
         for (int i = 0; i < V; i++) {
             int id = scanner.nextInt();
@@ -24,24 +22,25 @@ public class Graph {
             int from = scanner.nextInt();
             int to = scanner.nextInt();
             vertices[from].edges.add(to);
-        } if (scanner.hasNextInt()) {
-            int source = scanner.nextInt();
-            int destination = scanner.nextInt();
-            System.out.println("Route: " + source + " -> " + destination);
+            vertices[to].edges.add(from); // Assuming undirected graph
         }
-    }
 
-    public double distance(int from, int to) {
-        return vertices[from].euclideandistance(vertices[to]);
+        // Skip source-destination pair (used in Dijkstra)
+        // These values can be used in main() if desired
     }
 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Graph with ").append(V).append(" vertices and ").append(E).append(" edges.\n");
         for (Vertex v : vertices) {
-            sb.append(v.toString()).append("\n");
+            sb.append(v).append(" -> ").append(v.edges).append("\n");
         }
         return sb.toString();
+    }
+
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(new File("input6.txt"));
+        Graph g = new Graph(scanner);
+        System.out.println(g);
     }
 }
