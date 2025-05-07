@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.*;
 import javax.swing.*;
-
+//
 public class Functional {
     public static void main(String[] args) {
 
